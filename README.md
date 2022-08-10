@@ -1,5 +1,5 @@
-# mineralone.github.io/page1.6
+# mineralone.github.io/jscore
 
 ## Алексей Филиппов
 
-### [Макет 1.6](https://mineralone.github.io/jscore/)
+### [task4.2.7](https://mineralone.github.io/jscore/)
