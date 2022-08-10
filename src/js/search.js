@@ -24,12 +24,12 @@ function debounce(callee, timeoutMs) {
   }
 }
 
-export class Search {
+class Search {
 
     constructor(selector) {
       this.$el = document.querySelector(selector);
-      this.#render();
-      this.#setup();
+      this.render();
+      this.setup();
     }
 
   open() {
@@ -39,11 +39,11 @@ export class Search {
     this.$el.classList.remove('open');
     }
   
-  #render() {
+  render() {
     this.$el.innerHTML = getTemplate();
   }
 
-  #setup() {
+  setup() {
     this.$listRep = this.$el.querySelector('.search__subscribtion');
     this.$input = this.$el.querySelector('.search__input');
 
@@ -138,3 +138,5 @@ export class Search {
     }
   }
 }
+
+const app = new Search('.search');
